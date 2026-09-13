@@ -1,0 +1,10 @@
+--- inputbak/play-services-core/src/main/AndroidManifest.xml	2024-12-24 14:15:14.000000000 +0300
++++ input/play-services-core/src/main/AndroidManifest.xml	2025-01-21 11:43:30.000000000 +0300
+@@ -191,6 +191,7 @@
+         androidx.compose.runtime.saveable"
+         />
+     <application
++        android:name="org.microg.gms.App"
+         android:allowBackup="true"
+         android:forceQueryable="true"
+         android:fullBackupOnly="true"
